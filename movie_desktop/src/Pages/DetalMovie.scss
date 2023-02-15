@@ -1,0 +1,141 @@
+.detalDiv {
+    width: 100%;
+    height: 70vh;
+    position: absolute;
+    left: 0px;
+    padding: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    .backgrounColorDiv {
+        display: flex;
+        position: absolute;
+        width: 100%;
+        left: 0px;
+        top: 0px;
+        height: 70vh;
+        background-color: rgba(0, 0, 0, 0.68);
+
+        .imgDiv {
+            width: 35%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-left: 100px;
+
+            img {
+                width: 70%;
+                box-shadow: rgb(173, 173, 173) 0 0 10px;
+                border-radius: 20px;
+            }
+        }
+
+
+        .dataDetalDiv {
+            width: 100%;
+            text-align: left;
+            padding-top: 100px;
+            display: flex;
+            flex-direction: column;
+            gap: 19px;
+            color: white;
+
+            p {
+                font-size: 1vw;
+                font-weight: bold;
+            }
+
+            button {
+                width: 100px;
+                padding: 5px 0;
+            }
+
+            .rang {
+                background-color: rgb(228, 60, 60);
+                width: 6vw;
+                position: absolute;
+                left: 60px;
+                top: 70px;
+                padding: 2px 3px;
+            }
+
+            .trailerDiv {
+                display: flex;
+                align-items: center;
+                gap: 20px;
+
+                svg {
+
+                    font-size: 35px;
+                    transition: all .2s ease;
+                    background-color: white;
+                    border-radius: 70%;
+                    color: rgb(92, 94, 164);
+
+                }
+
+                svg:hover {
+                    color: red;
+                    cursor: pointer;
+                    transform: scale(1.2);
+                    background-color: white;
+                    border-radius: 50%;
+                }
+
+                span {
+                    font-size: 25px;
+                }
+            }
+
+            a {
+                text-decoration: none;
+                font-size: 15px;
+                background-color: white;
+                width: 100px;
+                text-align: center;
+                font-weight: bold;
+                padding: 7px 0;
+                transition: all 0.2s ease;
+            }
+
+            a:hover {
+                background-color: rgb(92, 94, 164);
+                color: white;
+                border-radius: 10px;
+            }
+        }
+
+        .trailerPalyDiv {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.854);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            iframe {
+                width: 50%;
+                height: 80%;
+            }
+
+            button {
+                margin-top: 20px;
+                width: 100px;
+                padding: 8px;
+                transition: all 0.2s ease;
+            }
+
+            button:hover {
+                background-color: rgb(92, 94, 164);
+                color: white;
+                border-radius: 10px;
+                cursor: pointer;
+            }
+        }
+
+    }
+
+}

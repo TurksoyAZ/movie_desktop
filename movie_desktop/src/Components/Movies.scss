@@ -1,0 +1,102 @@
+.formMovie {
+    width: 100%;
+    padding: 10px 0px;
+    display: flex;
+    justify-content: center;
+
+    input {
+        width: 50%;
+        padding: 5px 10px;
+        font-size: 17px;
+        font-weight: bold;
+
+    }
+
+    button {
+        padding: 0 15px;
+        font-size: 17px;
+        font-weight: bold;
+        background-color: rgb(92, 94, 164);
+        color: white;
+        transition: all .3s ease;
+
+        &:hover {
+            cursor: pointer;
+            background-color: rgb(66, 177, 64);
+            color: white;
+        }
+    }
+}
+
+
+.genreMovie {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 10px;
+    column-gap: 20px;
+    padding-bottom: 5px;
+
+    button {
+        width: 90px;
+        height: 30px;
+        font-size: 11px;
+        font-weight: bold;
+        border-radius: 10px;
+        background-color: rgb(92, 94, 164);
+
+        color: rgb(255, 255, 255);
+        transition: all .3s ease;
+
+        &:hover {
+            cursor: pointer;
+            background-color: rgb(66, 177, 64);
+            color: white;
+        }
+    }
+}
+
+
+
+.mainMovieContainer {
+
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    padding: 0 40px;
+
+
+    .moviesDiv {
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding-top: 30px;
+        gap: 10px;
+
+    }
+
+}
+
+.buttonLoadMoreDiv {
+    width: 100%;
+    padding: 10px;
+
+    button {
+        width: 150px;
+        padding: 10px 0px;
+        background-color: rgb(92, 94, 164);
+        color: white;
+        border-radius: 10px;
+        font-size: 16px;
+        font-weight: bold;
+        transition: all .3s ease;
+
+        &:hover {
+            cursor: pointer;
+            background-color: rgb(66, 177, 64);
+            color: white;
+        }
+    }
+}
